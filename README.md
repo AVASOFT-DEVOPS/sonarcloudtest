@@ -73,3 +73,11 @@ or manipulate Go programs.
 
 A trivial web server that demonstrates the use of the
 [`template` package](https://golang.org/pkg/text/template/)'s `block` feature.
+
+## test
+test the go test using public repository code
+-----------------------------------------------------------
+Sample edit #1
+Sample edit #2
+Sample edit #3
+Sample edit #4
