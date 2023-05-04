@@ -24,6 +24,7 @@ jobs:
           
   test:
     name: Software Quality Testing
+    needs: sonarcloud
     runs-on: ubuntu-latest
     steps:
       - name: ServiceNow DevOps Sonar Scan Results
@@ -37,5 +38,3 @@ jobs:
           job-name: 'Test'
           sonar-host-url: ${{ secrets.SONAR_URL }}
           sonar-project-key: ${{ secrets.SONAR_PROJECT_KEY }}
-          interval: '100'
-          timeout: '7200'
