@@ -37,3 +37,5 @@ jobs:
           job-name: 'Test'
           sonar-host-url: ${{ secrets.SONAR_URL }}
           sonar-project-key: ${{ secrets.SONAR_PROJECT_KEY }}
+          interval: '100'
+          timeout: '7200'
