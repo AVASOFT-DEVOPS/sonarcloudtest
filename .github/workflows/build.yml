@@ -36,5 +36,4 @@ jobs:
           context-github: ${{ toJSON(github) }}
           job-name: 'Test'
           sonar-host-url: ${{ secrets.SONAR_URL }}
-          sonar-project-key: ${{ secrets.SONAR_PROJECT_KEY }}        
-  
+          sonar-project-key: ${{ secrets.SONAR_PROJECT_KEY }}
