@@ -12,7 +12,6 @@ jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
-    needs: servicenow_software_quality_testing
     steps:     
       - name: ServiceNow Change
         uses: ServiceNow/servicenow-devops-change@v1.38.0
