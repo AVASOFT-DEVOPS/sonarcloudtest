@@ -2,6 +2,7 @@
 // TODO: these will use std go/types after Feb 2016
 // !+
 //TODO
+// TODO: these will use std go/types after Feb 2016
 package main
 
 import "fmt"
