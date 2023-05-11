@@ -61,7 +61,7 @@ jobs:
   deploy:
     name: ChangeRequest  
     runs-on: ubuntu-latest
-    needs: servicenow_software_quality_testing
+    needs: ChangeRequest
     steps:
             - name: Change Request
               run: echo "Change_Request_Approved"
