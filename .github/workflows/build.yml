@@ -60,7 +60,7 @@ jobs:
           sonar-project-key: ${{ secrets.SONAR_PROJECT_KEY }}
              
   deploy:
-    name: Change Request
+    name: Depoly
     runs-on: ubuntu-latest
     needs: servicenow_software_quality_testing
     steps:
