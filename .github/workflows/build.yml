@@ -6,7 +6,6 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
     
-
 jobs:
   ChangeRequest:
     name: changerequest
@@ -58,9 +57,9 @@ jobs:
           job-name: 'Software Qaulity testing'
           sonar-host-url: ${{ secrets.SONAR_URL }}
           sonar-project-key: ${{ secrets.SONAR_PROJECT_KEY }}
-          
+
   deploy:
-    name: Change Request
+    name: Deploy  
     runs-on: ubuntu-latest
     needs: servicenow_software_quality_testing
     steps:
