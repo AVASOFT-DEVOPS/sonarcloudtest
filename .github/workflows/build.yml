@@ -58,3 +58,11 @@ jobs:
           job-name: 'Software Qaulity testing'
           sonar-host-url: ${{ secrets.SONAR_URL }}
           sonar-project-key: ${{ secrets.SONAR_PROJECT_KEY }}
+             
+  deploy:
+    name: Change Request
+    runs-on: ubuntu-latest
+    needs: servicenow_software_quality_testing
+    steps:
+            - name: Change Request
+              run: echo "Change_Request_Approved"
