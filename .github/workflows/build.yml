@@ -8,7 +8,7 @@ on:
     
 jobs:
   ChangeRequest:
-    name: changerequest
+    name: ChangeRequest
     runs-on: ubuntu-latest
     needs: sonarcloud
     steps:     
