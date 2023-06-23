@@ -16,6 +16,8 @@
 // on /hello with a welcoming message.
 //TODO :
 // TODO :
+// TODO: these will use std go/types after Feb 2016
+// TODO: these will use std go/types after Feb 2016
 package hello
 
 import (
